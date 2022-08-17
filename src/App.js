@@ -6,6 +6,7 @@ import bgVideo from './video/video.mp4'
 import Projects from './components/Projects.js';
 import { Route, Routes } from 'react-router-dom';
 import Technologies from './components/Technologies'
+
 function App() {
   return (
     <>
