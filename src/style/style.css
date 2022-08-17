@@ -49,23 +49,44 @@ video{
   color: #fff;
   margin-top: 20vh;
 }
-.photo{
-  width: 20vw;
-  height:40vh;
-  border-radius: 50%;
-  object-fit: cover;
+.about-ctn{
+  display: flex;
+  flex-direction: column;
 }
 .btn-cv{
-  padding: 10px 20px;
+  padding: 10px 15px;
   background-color: #fff;
   color: black;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
+  width: 10vw;
 }
 .btn-cv:hover{
-  color: black;
+  color: #121629;
+}
+.linkedin-btn{
+  padding: 10px 15px;
+  background-color:#0a66c2;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 10vw;
+  margin-top: 10px;
+}
+.linkedin-btn:hover{
+  color:#fff;
+}
+.photo{
+  width: 20vw;
+  height:40vh;
+  border-radius: 50%;
+  object-fit: cover;
 }
 /* PROJECTS */
 .Projects-ctn{
