@@ -12,6 +12,7 @@ function App() {
       <video autoPlay loop muted src={bgVideo} type='video/mp4'/>
         <Navbar/>
         <Routes>
+          <Route path='/' element={<Home/>}/>
           <Route path='/*' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/technologies' element={<Technologies/>}/>
