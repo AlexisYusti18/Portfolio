@@ -7,7 +7,7 @@ function Technologies() {
         <div className='gallery'>
                 {images.map((item)=>(
                     <div className='gallery-item'>
-                        <img className='gallery-img' src={item}/>
+                        <img className='gallery-img' src={item} alt='image'/>
                     </div>
                 ))}
         </div>
