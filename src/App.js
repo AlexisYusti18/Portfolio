@@ -1,24 +1,30 @@
 import React from 'react';
-import Home from './components/Home';
-import './style/style.css'
-import Navbar from './components/NavBar'
-import bgVideo from './video/video.mp4'
-import Projects from './components/Projects.js';
 import { Route, Routes } from 'react-router-dom';
+import './style/style.css'
+import bgVideo from './video/video.mp4'
+import Navbar from './components/NavBar'
+import Home from './components/Home';
+import Projects from './components/Projects.js';
 import Technologies from './components/Technologies'
+<<<<<<< HEAD
 
 function App() {
+=======
+import Contact from './components/Contact';
+
+export default function App() {
+>>>>>>> developer
   return (
     <>
-      <video autoPlay loop muted src={bgVideo} type='video/mp4'/>
+        <video autoPlay loop muted src={bgVideo} type='video/mp4'/>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/*' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/technologies' element={<Technologies/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
     </>
   );
 }
-export default App;
