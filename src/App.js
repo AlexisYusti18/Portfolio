@@ -6,14 +6,9 @@ import Navbar from './components/NavBar'
 import Home from './components/Home';
 import Projects from './components/Projects.js';
 import Technologies from './components/Technologies'
-<<<<<<< HEAD
-
-function App() {
-=======
 import Contact from './components/Contact';
 
 export default function App() {
->>>>>>> developer
   return (
     <>
         <video autoPlay loop muted src={bgVideo} type='video/mp4'/>
