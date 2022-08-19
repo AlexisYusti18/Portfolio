@@ -4,6 +4,14 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.ctn-loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-image: url('../assets/hero.png'); */
+  background-color: #111;
+}
 video{
   position: absolute;
   z-index: -1;
@@ -105,6 +113,25 @@ video{
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.projects-title{
+  display: block;
+  font-family: monospace;
+  white-space: none;
+  border-right: 4px solid;
+  width: 8vw;
+  animation:  typing 2s steps(12),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+  color: #fff;
+  font-size: 30px;
+}
+@keyframes typing{
+  from {width: 0}
+}
+@keyframes blink{
+
+  50% {border-color: transparent;}
 }
 .card-ctn{
   width: 90vw;
@@ -245,7 +272,6 @@ video{
 
   50% {border-color: transparent;}
 }
-
 /* RESPONSIVE */
 /* @media screen and (max-width:990px){
  
