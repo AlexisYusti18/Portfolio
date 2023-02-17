@@ -11,7 +11,7 @@ export default function Home(){
       <div className='home-ctn'>
         <div className='about-ctn'>
           <h1>I'm <span style={{color:'#0a66c2'}}>Alexis Yusti</span></h1>
-          <p>MERNN Fullstack & Mobile Apps</p>
+          <p>MERN Fullstack & Mobile Apps</p>
           <a className='btn-cv' href={pdf} download={' '}>
             Download CV <DownloadIcon/>
           </a>
